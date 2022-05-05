@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 ul{
     list-style-type: none;
     text-decoration: none;
     color: black;
-    padding: 0em 0em 0em 27em;
+    padding: 0em 0em 0em 33em;
     display:inline-block;
     margin: auto
 }
@@ -16,4 +20,17 @@ nav{
 h1{
     font-size: xx-large;
     font-family: Arial
+}
+
+.sections{
+    display: flex;
+}
+
+.main {
+    margin-right: 100px;
+
+}
+
+.sub-section h2 {
+    font-style: italic;
 }
