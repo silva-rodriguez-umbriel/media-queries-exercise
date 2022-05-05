@@ -28,8 +28,10 @@ h1{
     font-family: Arial;
 }
 
-.sections{
+section{
     display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .main {
@@ -85,3 +87,10 @@ h1{
     }
 }
 
+@media screen and (min-width: 1200px){
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}
