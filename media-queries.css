@@ -1,0 +1,19 @@
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 0em 0em 0em 27em;
+    display:inline-block;
+    margin: auto
+}
+li {
+    display: inline-block;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+}
+h1{
+    font-size: xx-large;
+    font-family: Arial
+}
